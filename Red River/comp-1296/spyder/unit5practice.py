@@ -29,6 +29,7 @@ print("\n")
 #This line creates a dictionary of vehicles, as follows:
 # my_custom_dictionary = {'subaru': ('green'), 'honda': ('red'), 'ford': ('white')}
 my_custom_dictionary = {'vehicles' : ['subaru', 'honda', 'ford'] , 'colors' : ('green', 'red', 'white')}
+my_custom_dictionary['colors']+=('blue',)
 #This line prints all content in dictionary:
 print("my_custom_dictionary:", my_custom_dictionary)
 
