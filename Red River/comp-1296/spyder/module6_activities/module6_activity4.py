@@ -10,5 +10,5 @@ Created on Wed Oct 11 12:37:15 2023
 @author: coled
 """
 
-long_string = ("hello I am a snake""\n""Hissssssssssssssssss")
+long_string = ("hello I am a snake""\n""Hissssssssssssssssss""\n\t""This is an indent")
 print(long_string)
