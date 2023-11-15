@@ -14,10 +14,20 @@ Created on Thu Nov  2 09:37:38 2023
 username = "cdorman"
 fname = "Cole"
 lname = "Dorman"
-email = "cdorman@example.com"
+email : str
 userid = "12740757"
 
 user = {}
+
+print("welcome to Red River")
+fname = input("Enter your first name: ").lower().strip()
+lname = input("Enter your last name: ").lower().strip()
+
+email = fname[0] + lname + "@academic.rrc.ca"
+print(f"Your automatically generated email address is: {email}")
+username = fname[0] + lname
+print(f"Your automatically generated username is: {username}")
+
 
 print("generating user profile...\n")
 user['username'] = username

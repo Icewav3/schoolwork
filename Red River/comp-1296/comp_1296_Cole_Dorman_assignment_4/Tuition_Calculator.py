@@ -2,14 +2,12 @@
 """
 School Cost Calculator
 
-calcualtes total cost given data from another program
+calculates total cost given user input
 
 Created on Tue Oct 31 09:36:53 2023
 
 @author: coled
 """
-
-#import math
 
 total = 0
 tuition = 0
@@ -18,13 +16,46 @@ CREDIT_VALUE = 1300.3
 STUDENT_SERVICES = 50.25
 GYM_MEMBERSHIP = 23
 
-#editable vars
-'''in our meeting we agreed these come from outside program'''
-insurance = False
-gym_membership = True
-credits_taken = 27
-monthly_payments = 6
-payment_per_month : float
+
+insurance = input("Do you want insurance? (y/n): ").lower().strip()
+if insurance == "y":
+    insurance = True
+else:
+    insurance = False
+print(f"insurance: {insurance}")
+
+gym_membership = input("Do you want a gym membership? (y/n): ").lower().strip()
+if gym_membership == "y":
+    gym_membership = True
+else:
+    gym_membership = False
+print(f"gym membership: {gym_membership}")
+
+monthly_payments = input("How many monthly payments do you want to make? (1-12): ")
+try:
+    monthly_payments = int(monthly_payments)
+except ValueError:
+    print("invalid input, defaulting to 6")
+    monthly_payments = 6
+if monthly_payments > 12:
+    print("invalid input, defaulting to 6")
+    monthly_payments = 6
+else:
+    print(f"monthly payments: {monthly_payments}")
+
+credits_taken = input("How many credits are you taking? (1-30): ")
+try:
+    credits_taken = int(credits_taken)
+except ValueError:
+    print("invalid input, defaulting to 15")
+    credits_taken = 15
+if credits_taken > 30:
+    print("invalid input, defaulting to 15")
+    credits_taken = 15
+else:
+    print(f"credits taken: {credits_taken}")
+
+print("Calculating total...")
 
 total += GYM_MEMBERSHIP
 total += INSURANCE
