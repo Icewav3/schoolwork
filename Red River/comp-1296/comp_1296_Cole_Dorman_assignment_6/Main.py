@@ -1,14 +1,17 @@
 import AccountCreator
 import TuitionCalculator
-import Util
 import SaveData
 
+#Functions
+def clean(string):
+    return string.lower().strip()
+
+#Main
 exit = False
 DATA_HANDLER = SaveData.DataHandler("users")
-
 print("Welcome to Red River")
 while exit == False:
-    mode = Util.clean(input("Would you like to create an account or login to an existing account? (create/login): "))
+    mode = clean(input("Would you like to create an account or login to an existing account? (create/login): "))
     if mode == "exit":
         exit = True
         print("Thank you for using Red River")
@@ -18,7 +21,7 @@ while exit == False:
     elif mode == "login":
         data = DATA_HANDLER.read_data()
         #print(data)
-        username = Util.clean(input("Enter your username: "))
+        username = clean(input("Enter your username: "))
         if username in data.values():
             print("Welcome back")
             tuition_calculator = TuitionCalculator.TuitionCalculator()

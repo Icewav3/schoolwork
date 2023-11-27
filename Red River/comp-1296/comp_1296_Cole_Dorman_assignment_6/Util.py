@@ -1,4 +1,5 @@
 class Util:
-    @staticmethod
-    def clean(string):
+    def __init__(self):
+        pass
+    def clean(self, string):
         return string.lower().strip()

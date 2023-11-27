@@ -25,9 +25,14 @@ class AccountCreator:
     CHAR_MIN = 8
     NUM_MIN = 2
 
+#Functions
+
     def __init__(self):
         self.user = {}
 
+    def clean(self, string):
+        return string.lower().strip()
+    
     def PasswordHandler(self): #Private
         while not AccountCreator.requirements:
             password = input("Enter your password: ")
@@ -41,8 +46,8 @@ class AccountCreator:
         return self.password
 
     def CreateAccount(self):
-        fname = Util.clean(input("Enter your first name: "))
-        lname = Util.clean(input("Enter your last name: "))
+        fname = self.clean(input("Enter your first name: "))
+        lname = self.clean(input("Enter your last name: "))
         username = fname[0] + lname
         print(f"Your automatically generated username is: {username}")
         email = username + AccountCreator.EMAILSUFFIX
@@ -61,7 +66,7 @@ class AccountCreator:
         self.user['userid'] = self.last_user_id
         print(f"Added user ID: {self.last_user_id} to the user profile")
 
-        self.PasswordHandler()
+        self.password = self.PasswordHandler()
 
         print(f"User profile generated: {self.user}")
         return self.user
