@@ -41,9 +41,9 @@ class AccountCreator:
             elif sum(1 for c in password if c.isdigit()) < AccountCreator.NUM_MIN:
                 print(f"Password must contain at least {AccountCreator.NUM_MIN} number(s)")
             else:
+                print("Password accepted")
                 AccountCreator.requirements = True
-                self.password = password
-        return self.password
+                return password
 
     def CreateAccount(self):
         fname = self.clean(input("Enter your first name: "))
@@ -66,7 +66,7 @@ class AccountCreator:
         self.user['userid'] = self.last_user_id
         print(f"Added user ID: {self.last_user_id} to the user profile")
 
-        self.password = self.PasswordHandler()
+        self.user['password'] = self.PasswordHandler()
 
         print(f"User profile generated: {self.user}")
         return self.user

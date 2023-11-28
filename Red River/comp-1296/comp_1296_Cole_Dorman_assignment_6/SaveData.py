@@ -11,7 +11,7 @@ class DataHandler:
     def __init__(self, filename):
         self.filename = filename
 
-    def write_data(self, data : dict):
+    def write_data(self, data: dict):
         """
         Writes the given data to the file.
 
@@ -38,15 +38,8 @@ class DataHandler:
             dict: The data read from the file. The keys are strings and the values are strings.
         """
         data = {}
-        with open(self.filename, 'r') as file: # r = read, w = write, a = append
+        with open(self.filename, 'r') as file:  # r = read, w = write, a = append
             for line in file:
                 key, value = line.strip().split(': ')
                 data[key] = value
         return data
-
-# Example usage:
-data_handler = DataHandler("users")
-data = {"name": "John", "age": "25", "city": "New York"}
-data_handler.write_data(data)
-read_data = data_handler.read_data()
-print(read_data)

@@ -12,6 +12,7 @@ import Util
 
 
 class TuitionCalculator:
+    userinput = False
     total = 0
     tuition = 0
     insurance = 0
@@ -23,47 +24,56 @@ class TuitionCalculator:
     STUDENT_SERVICES = 50.25
     GYM_MEMBERSHIP = 23
 
+    def clean(self, string):
+        return string.lower().strip()
+
     def GetUserInput(self):
-        insurance = Util.clean(input("Do you want insurance? (y/n): "))
+        insurance = self.clean(input("Do you want insurance? (y/n): "))
         if insurance == "y":
-            insurance = True
+            self.insurance = True
         else:
-            insurance = False
+            self.insurance = False
         print(f"insurance: {insurance}")
 
-        gym_membership = Util.clean(input("Do you want a gym membership? (y/n): "))
+        gym_membership = self.clean(input("Do you want a gym membership? (y/n): "))
         if gym_membership == "y":
-            gym_membership = True
+            self.gym_membership = True
         else:
-            gym_membership = False
+            self.gym_membership = False
         print(f"gym membership: {gym_membership}")
 
-        monthly_payments = Util.clean(input("How many monthly payments do you want to make? (1-12): "))
+        monthly_payments = int(self.clean(input("How many monthly payments do you want to make? (1-12): ")))
         try:
-            monthly_payments = int(monthly_payments)
+            self.monthly_payments = int(monthly_payments)
         except ValueError:
             print("invalid input, defaulting to 6")
-            monthly_payments = 6
+            self.monthly_payments = 6
         if monthly_payments > 12:
             print("invalid input, defaulting to 6")
-            monthly_payments = 6
+            self.monthly_payments = 6
         else:
             print(f"monthly payments: {monthly_payments}")
+            self.monthly_payments = monthly_payments
 
-        credits_taken = Util.clean(input("How many credits are you taking? (1-30): "))
+        credits_taken = int(self.clean(input("How many credits are you taking? (1-30): ")))
         try:
-            credits_taken = int(credits_taken)
+            self.credits_taken = int(credits_taken)
         except ValueError:
             print("invalid input, defaulting to 15")
-            credits_taken = 15
+            self.credits_taken = 15
         if credits_taken > 30:
             print("invalid input, defaulting to 15")
-            credits_taken = 15
+            self.credits_taken = 15
         else:
             print(f"credits taken: {credits_taken}")
+            self.credits_taken = credits_taken
+        if credits_taken is not None and monthly_payments is not None and insurance is not None and gym_membership is not None:
+            return True
+        return False
 
     def CalculateTuition(self):
-        if self.insurance and self.gym_membership and self.payment_per_month and self.credits_taken:
+        check = self.GetUserInput()
+        if check == True:
             self.total += self.GYM_MEMBERSHIP
             print(f"Current Total: {self.total}")
             self.total += self.INSURANCE * self.insurance #Needs to be tested
