@@ -32,14 +32,25 @@ class DataHandler:
 
     def read_data(self):
         """
-        Reads the data from the file and returns it as a dictionary.
+        Reads the data from the file and returns it as a list of dictionaries.
         
         Returns:
-            dict: The data read from the file. The keys are strings and the values are strings.
+            list: The data read from the file. Each item in the list is a dictionary where the keys are strings and the values are strings.
         """
-        data = {}
+        data = []
         with open(self.filename, 'r') as file:  # r = read, w = write, a = append
+            current_dict = {}
             for line in file:
-                key, value = line.strip().split(': ')
-                data[key] = value
+                if line.strip() == "":
+                    if current_dict:
+                        data.append(current_dict)
+                        current_dict = {}
+                else:
+                    key, value = line.strip().split(': ')
+                    if key in current_dict:
+                        data.append(current_dict)
+                        current_dict = {}
+                    current_dict[key] = value
+            if current_dict:
+                data.append(current_dict)
         return data
