@@ -1,9 +1,23 @@
+"""
+This script is the main program for the Red River application. It allows users to create an account or login to an existing account. 
+Once logged in, users can calculate their tuition or view their account details.
+"""
+
 import AccountCreator
 import TuitionCalculator
 import SaveData
 
 #Functions
 def clean(string):
+    """
+    Cleans the given string by converting it to lowercase and removing leading/trailing whitespaces.
+    
+    Args:
+        string (str): The string to be cleaned.
+    
+    Returns:
+        str: The cleaned string.
+    """
     return string.lower().strip()
 
 #Main
