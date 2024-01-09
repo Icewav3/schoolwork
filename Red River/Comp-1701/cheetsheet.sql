@@ -17,7 +17,7 @@
 cd '.\Program Files\MariaDB 11.4\bin'
 
 --Open Maria DB:
-.\mysql -u root -p
+mysql -u root -p
 
 --Show databases:
 SHOW DATABASES;
