@@ -1,16 +1,19 @@
 from datetime import datetime
+import time
 import math
 
 #1
-right_this_minute = datetime.today().minute
-if right_this_minute % 2 == 1:
-    print("This minute seems a little odd.")
-else:
-    print("Not an odd minute.")
+for i in range(5):
+    right_this_minute = datetime.today().minute
+    if right_this_minute % 2 == 1:
+        print("This minute seems a little odd.")
+    else:
+        print("Not an odd minute.")
+    time.sleep(60)
 
 #2
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-for i in range(25, -1, -2):
+for i in range(25, 0, -2):
     print(alphabet[i], end="\n")
 
 #3

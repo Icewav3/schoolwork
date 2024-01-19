@@ -39,16 +39,13 @@ CREATE DATABASE IF NOT EXISTS database_name
 CHARSET='utf8mb4'
 COLLATE='utf8mb4_unicode_ci';
 
---conditionals
---The SELECT query returns a Temporary Result Set, using a FROM clause to pull column and row data from a:
+-- Conditional SELECT query with ORDER BY:
 SELECT   column1, column2 ... , columnN 
 FROM     table_view_subquery_temp_result_set 
 WHERE    filter_conditional;
 ORDER BY character_set_name, collation_name; --this allows for sorting
 
--- BIT/boolean is actually a TINYINT(1) or
--- INT(1) only accepting 0 or 1 (FALSE or TRUE)
--- as values
+-- BIT/boolean values as TINYINT(1) and INT(1) respectively:
 SELECT FALSE AS b0, TRUE AS b1;
 
 -- FALSE returns 0
