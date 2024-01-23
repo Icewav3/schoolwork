@@ -350,6 +350,28 @@ SELECT d1
                       -- Date String
 FROM (SELECT NOW() AS d1) tsr22;
 
--- MORE FUNCTIONS:
--- https://www.w3schools.com/sql/sql_ref_mysql.asp 
+---------------------------------------------------------------------------------------------
+
+--drop or create table
+
+DROP TABLE IF EXISTS table_name;
+CREATE TABLE IF NOT EXISTS table_name (
+    colPK     INTtype        AUTO_INCREMENT 
+  , col2      DATAtype(size) NULL DEFAULT value
+  ...
+  , colN      DATAtype(size) NULL
+  , colFKs    INTtype        NULL
+  , p_id_user INTtype        -- logged in user p_id
+  , date_mod  DATETIME       DEFAULT NOW()
+  , active    BIT            DEFAULT 1 -- 0 hide
+  
+  , CONSTRAINT table_name___PK PRIMARY KEY(colPK)
+  , CONSTRAINT table_name___UK UNIQUE(col2,...colN)
+
+);
+--------------------------------------
+--table: people
+
+drop table if exists people;
+create table if not XISTS
 

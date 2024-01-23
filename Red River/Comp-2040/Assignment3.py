@@ -3,7 +3,7 @@
 
 #1
 userInput = input("Enter a string: ")
-userInput.lower().strip()
+userInput = userInput.lower().strip()
 if userInput == userInput[::-1]:
     print("This is a palindrome")
 else:
@@ -18,5 +18,9 @@ while len(encodedLabels) < 5:
     if myDict.__contains__(userInput):
         labels.append(userInput)
         encodedLabels.append(myDict[userInput])
+    else:
+        print("This animal is not in the dictionary")
+        print("The animals in the dictionary are: " + str(myDict.keys()))
+    print("you have: ", 5-len(labels)," entries left")
 print(labels)
 print(encodedLabels)
