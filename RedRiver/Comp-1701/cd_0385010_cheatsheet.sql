@@ -1,34 +1,52 @@
 /* 
-** Name:
-** Assignment:
-** Date: 
-** History:  YYYY-MM-DD
-**           Description and list of changes
-**           - change 1
-**           - change 2
-**           - change n
-**
-**           YYYY-MM-DD
-**           Latest description and list of changes
-**           - latest change n
+** Name: Cole Dorman
+** Assignment: BoxStore Assignment
+** Date: 1/23/2024
+** History:
+**           1/23/2024 - added changelog
 **/
 
---Maria Db location:
-cd '.\Program Files\MariaDB 11.4\bin'
 
---Open Maria DB:
+-- -------------------------------------------------------------------
+-- paths and service
+
+-- BINDIR:
+C:\Program Files\MariaDB 11.4\bin
+
+-- DATADIR
+C:\Program Files\MariaDB 11.4\data
+
+-- DATADIR
+C:\Program Files\MariaDB 11.4\data\my.ini
+
+
+-- MariaDB 11.4 Service
+"C:\Program Files\MariaDB 11.4\bin\mysqld.exe" "-- defaults-file=C:\Program Files\MariaDB 11.4\data\my.ini" 
+"MariaDB"
+
+
+
+-- -------------------------------------------------------------------
+-- database CLI basic nav and infomation commands
+
+-- Open Maria DB:
 mysql -u root -p
 
---Show databases:
+-- Show databases:
 SHOW DATABASES;
 
---use database:
-USE <database name>;
+-- use database:
+USE database_name;
 
---get database
+-- get database
 SELECT DATABASE();
 
---example 1:
+----------------------------------------------------------------------
+-- regex
+--([a-z]|[A-Z])
+-- $1
+----------------------------------------------------------------------
+-- example 1:
 SELECT collation_name, character_set_name
 FROM collations
 WHERE character_set_name='utf8mb4'
@@ -43,7 +61,20 @@ COLLATE='utf8mb4_unicode_ci';
 SELECT   column1, column2 ... , columnN 
 FROM     table_view_subquery_temp_result_set 
 WHERE    filter_conditional;
-ORDER BY character_set_name, collation_name; --this allows for sorting
+ORDER BY character_set_name, collation_name; -- this allows for sorting
+
+
+-- -------------------------------------------------------------------
+-- DROP/CREATE/USE DATABASE syntax block
+USE sys;
+
+DROP DATABASE IF EXISTS database_name;
+CREATE DATABASE IF NOT EXISTS database_name
+CHARSET='utf8mb4'
+COLLATE='utf8mb4_unicode_ci';
+
+USE database_name;
+
 
 -- BIT/boolean values as TINYINT(1) and INT(1) respectively:
 SELECT FALSE AS b0, TRUE AS b1;
@@ -352,7 +383,7 @@ FROM (SELECT NOW() AS d1) tsr22;
 
 ---------------------------------------------------------------------------------------------
 
---drop or create table
+-- drop or create table
 
 DROP TABLE IF EXISTS table_name;
 CREATE TABLE IF NOT EXISTS table_name (
@@ -370,8 +401,14 @@ CREATE TABLE IF NOT EXISTS table_name (
 
 );
 --------------------------------------
---table: people
+-- table: people
 
 drop table if exists people;
-create table if not XISTS
+create table if not EXISTS people (
+  p_id MEDIUMINT AUTO_INCREMENT
+  , full_name VARCHAR(100) NOT NULL
+  , CONSTRAINT people___PK PRIMARY KEY(p_id)
+  , CONSTRAINT people___UK_fullname UNIQUE(full_name ASC)
+);
+
 
