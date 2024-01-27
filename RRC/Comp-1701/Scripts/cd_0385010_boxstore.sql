@@ -2,15 +2,9 @@
 ** Name: Cole Dorman
 ** Assignment: Boxstore
 ** Date: 2024-01-24
-** History:  YYYY-MM-DD
-**           Description and list of changes
-**           - added changelist
-**           - change 2
-**           - change n
-**
-**           2024-01-25
-**           Latest description and list of changes:
-**           - 
+** History:
+**           - 1/23/2024 added changelog
+**           - 1/26/2024 added database loading
 **/
 
 -- -------------------------------------------------------------------
@@ -24,15 +18,22 @@ COLLATE='utf8mb4_unicode_ci';
 
 USE cd_0385010_boxstore;
 -- create people table
-DROP TABLE IF NOT exists people;
-CREATE TABLE IF not EXISTS people (
+DROP TABLE IF EXISTS people;
+CREATE TABLE IF NOT EXISTS people (
   p_id MEDIUMINT AUTO_INCREMENT
-  , full_name VARCHAR(100) NOT NULL
   , CONSTRAINT people___PK PRIMARY KEY(p_id)
-  , CONSTRAINT people___UK_fullname UNIQUE(full_name ASC)
+  , CONSTRAINT people___PK UNIQUE(p_id ASC)
+  , full_name VARCHAR(100) NULL
 );
+
 -- import csv file into the people table
 
-LOAD DATA INFILE 'C:\Users\coled\Desktop\Github\schoolwork\RRC\Comp-1701\_data_imports.lnk'
+LOAD DATA INFILE '\_data\_imports/coledorman_0385010_boxstore_people_10000.csv'
 INTO TABLE people
-FIELDS TERMINATED BY '
+FIELDS TERMINATED BY '\n'(
+full_name);
+
+SELECT p_id, full_name
+FROM people
+ORDER BY p_id DESC
+LIMIT 100;

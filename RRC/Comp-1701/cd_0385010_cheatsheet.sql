@@ -4,6 +4,7 @@
 ** Date: 1/23/2024
 ** History:
 **           1/23/2024 - added changelog
+**           1/26/2024 - added notes on the database loading
 **/
 
 
@@ -29,7 +30,7 @@ C:\Program Files\MariaDB 11.4\data\my.ini
 -- -------------------------------------------------------------------
 -- database CLI basic nav and infomation commands
 
--- Open Maria DB:
+-- Open Maria DB: pw = cdorman
 mysql -u root -p
 
 -- Show databases:
