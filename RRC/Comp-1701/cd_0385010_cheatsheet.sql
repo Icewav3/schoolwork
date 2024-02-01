@@ -412,4 +412,14 @@ create table if not EXISTS people (
   , CONSTRAINT people___UK_fullname UNIQUE(full_name ASC)
 );
 
+----------------------------------------
+--create table
+
+DROP TABLE IF EXISTS tablename;
+CREATE TABLE IF NOT EXISTS tablename (
+    p_id MEDIUMINT UNSIGNED AUTO_INCREMENT
+  , full_name VARCHAR(191) NOT NULL
+  , CONSTRAINT people___PK PRIMARY KEY(p_id)
+
+);
 
