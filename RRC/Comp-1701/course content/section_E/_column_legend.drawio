@@ -1,0 +1,481 @@
+<mxfile host="Electron" modified="2023-10-23T12:00:18.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="xAJhnqR_960I8ON4hwoi" version="22.0.2" type="device">
+  <diagram name="Page-1" id="bikLvPuAGUrKs3jF-Xqp">
+    <mxGraphModel dx="672" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-1" value="LEGEND: column_type_size_precision" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fontFamily=Courier New;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="22" y="20" width="610" height="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-65" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="30" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-66" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-65">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-67" value="&lt;b&gt;Column(row) Attributes&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-65">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="60" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-78" value="&lt;b&gt;N&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-77">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-79" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;NULL &lt;/font&gt;&lt;/b&gt;(default allows NULLs for all data types, omit specification)&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-77">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="90" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-57" value="&lt;b&gt;NN&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-56">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-58" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;NOT NULL&lt;/font&gt;&lt;/b&gt; (if PK or AUTO_INCREMENT, omit it, else if field is required, specify)&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-56">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="120" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-60" value="&lt;b&gt;AI&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-59">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-61" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;AUTO_INCREMENT&lt;/font&gt;&lt;/b&gt; {?INT type, NOT NULL, UNSIGNED, positive numbers from 1 to 2&lt;sup&gt;n&lt;/sup&gt;-1&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-59">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="150" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-51" value="&lt;b&gt;US&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-50">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-52" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;UNSIGNED &lt;/font&gt;&lt;/b&gt;{default for AUTO_INCREMENT, allows only 0 to 1(AI) and larger}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-50">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="180" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-48" value="&lt;b&gt;S&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-47">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-49" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;SIGNED&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/b&gt;{default that allows negative numbers for numeric field}&lt;br&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-47">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-98" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="210" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-99" value="&lt;b&gt;DF&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-98">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-100" value="&lt;font face=&quot;Courier New&quot;&gt;DEFAULT &lt;i&gt;value &lt;b&gt;{specifies default value on record insert if NULL}&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-98">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-74" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="240" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-75" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-74">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-76" value="&lt;b&gt;Column(row) INTEGER Types&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-74">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="270" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-15" value="&lt;b&gt;&lt;i&gt;?&lt;/i&gt;INT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-14">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;?&lt;/i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#3333ff&quot;&gt;INT&lt;/font&gt;&lt;/b&gt; 2&lt;sup&gt;n&lt;/sup&gt;&amp;nbsp; {SIGNED -2&lt;sup style=&quot;border-color: var(--border-color);&quot;&gt;n-1&lt;/sup&gt;&lt;sub&gt;to&lt;/sub&gt;(2&lt;sup style=&quot;border-color: var(--border-color);&quot;&gt;n-1&lt;/sup&gt;-1) || UNSIGNED:AUTO_INCREMENT 0:1&lt;sub&gt;to&lt;/sub&gt;2&lt;sup style=&quot;border-color: var(--border-color);&quot;&gt;n&lt;/sup&gt;-1}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-14">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="300" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-63" value="&lt;b&gt;TINT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-62">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-64" value="&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;TINYINT&lt;/font&gt; &lt;/b&gt;2&lt;sup style=&quot;font-size: 11px;&quot;&gt;8&lt;/sup&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{S -128&amp;nbsp;&lt;sub style=&quot;font-size: 11px;&quot;&gt;to&amp;nbsp;&lt;/sub&gt;127 || US:AI&amp;nbsp;0:1&amp;nbsp;&lt;sub style=&quot;font-size: 11px;&quot;&gt;to&amp;nbsp;&lt;/sub&gt;255}" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=11;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-62">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Courier New;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="330" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-18" value="&lt;b&gt;SINT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-17">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-19" value="&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;SMALLINT &lt;/font&gt;&lt;/b&gt;2&lt;sup style=&quot;font-size: 11px;&quot;&gt;16&lt;/sup&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{S -32768&amp;nbsp;&lt;sub style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;to&amp;nbsp;&lt;/sub&gt;32767 || US:AI 0:1&amp;nbsp;&lt;sub style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;to&amp;nbsp;&lt;/sub&gt;65535}" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=11;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-17">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="360" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-21" value="&lt;b&gt;MINT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-20">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-22" value="&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;MEDIUMINT &lt;/font&gt;&lt;/b&gt;2&lt;sup style=&quot;font-size: 11px;&quot;&gt;24&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/sup&gt;{S&amp;nbsp;-8,388,608&amp;nbsp;&lt;sub style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;to&amp;nbsp;&lt;/sub&gt;8,388,607&amp;nbsp;|| US:AI 0:1&amp;nbsp;&lt;sub style=&quot;font-size: 11px;&quot;&gt;to&amp;nbsp;&lt;/sub&gt;16,777,215}" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=11;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-20">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="390" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-24" value="&lt;b&gt;INT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-23">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-25" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;INT &lt;/font&gt;&lt;/b&gt;2&lt;sup style=&quot;border-color: var(--border-color);&quot;&gt;32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/sup&gt;{S&amp;nbsp;-2,147,483,648&amp;nbsp;&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;to&amp;nbsp;&lt;/sub&gt;2,147,483,647&amp;nbsp;|| US:AI 0:1&amp;nbsp;&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;to&amp;nbsp;&lt;/sub&gt;4,294,967,295}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=11;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-23">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="420" width="610" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-27" value="&lt;b&gt;BINT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-26">
+          <mxGeometry width="50" height="50" as="geometry">
+            <mxRectangle width="50" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-28" value="&lt;font style=&quot;&quot; face=&quot;Courier New&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;BIGINT &lt;/font&gt;&lt;/b&gt;2&lt;sup style=&quot;font-size: 11px;&quot;&gt;64&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/sup&gt;{S -2&lt;sup style=&quot;font-size: 11px;&quot;&gt;63&amp;nbsp;&lt;/sup&gt;&lt;sub style=&quot;font-size: 11px; border-color: var(--border-color);&quot;&gt;to&amp;nbsp;&lt;/sub&gt;2&lt;sup style=&quot;font-size: 11px;&quot;&gt;63&lt;/sup&gt;-1 || US:AI 0:1&amp;nbsp;&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;to&lt;/font&gt;&lt;/sub&gt;&lt;sub style=&quot;font-size: 11px; border-color: var(--border-color);&quot;&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/sub&gt;18,446,744,073,709,551,615}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-26">
+          <mxGeometry x="50" width="560" height="50" as="geometry">
+            <mxRectangle width="560" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="470" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-30" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-29">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-31" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=0" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-29">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-107" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="500" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-108" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-107">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-109" value="&lt;b&gt;Column(row) DATETIME Types&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=0" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-107">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="530" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-84" value="&lt;b&gt;D&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-83">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-85" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;DATETIME &lt;/font&gt;&lt;/b&gt;{&#39;YYYY-MM-DD&#39; 10 char width with 0 padding for single digit values}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-83">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="560" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-45" value="&lt;b&gt;T&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-44">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-46" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;TIME &lt;/font&gt;&lt;/b&gt;{&#39;HH:MM:SS&#39; 8 char len with 0 padded single digit values}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-44">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="590" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-42" value="&lt;b&gt;DT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-41">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-43" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;font color=&quot;#6600cc&quot;&gt;&lt;b style=&quot;&quot;&gt;DATETIME&lt;/b&gt; &lt;/font&gt;{&#39;YYYY-MM-DD HH:MM:SS&#39; 19 char len 10+8+1 space, same zero padding&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-41">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-101" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="620" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-102" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-101">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-103" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-101">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="650" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-6" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-5">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-7" value="&lt;b&gt;Column(row) String Types&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=0" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-5">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-86" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="680" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-87" value="&lt;b&gt;C&lt;/b&gt;(#)" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-86">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-88" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;CHAR&lt;/font&gt;&lt;/b&gt;(SIZE)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{for constant width strings}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-86">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="710" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-9" value="&lt;b&gt;VC&lt;/b&gt;(#)" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-8">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-10" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;VARCHAR&lt;/font&gt;&lt;/b&gt;(SIZE)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{for variable/changing width strings}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-8">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="740" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-12" value="&lt;b&gt;TEXT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-11">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-13" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;TEXT&lt;/font&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;{for paragraph / log data}&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-11">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-92" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="770" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-93" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-92">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-94" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-92">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-104" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="800" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-105" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-104">
+          <mxGeometry width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-106" value="&lt;b&gt;Active BIT&lt;/b&gt;&lt;br&gt;, active BIT NOT NULL DEFAULT 1" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-104">
+          <mxGeometry x="50" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="840" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-72" value="&lt;b&gt;BIT&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-71">
+          <mxGeometry width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-73" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;font color=&quot;#990099&quot;&gt;BIT or B&lt;/font&gt;&amp;nbsp; - on/off, enable/disable, public/private, yes/no, true/false, show/hide&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - values are 1(default when defining it) or 0&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-71">
+          <mxGeometry x="50" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="880" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-111" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-110">
+          <mxGeometry width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-112" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;CURRENT_TIMESTAMP&lt;/b&gt;&lt;/span&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-110">
+          <mxGeometry x="50" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-113" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="920" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-114" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;CTS&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-113">
+          <mxGeometry width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-115" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Gets current date/time value for a DATETIME field&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-113">
+          <mxGeometry x="50" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-116" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="960" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-117" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-116">
+          <mxGeometry width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-118" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-116">
+          <mxGeometry x="50" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-95" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="1000" width="610" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-96" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-95">
+          <mxGeometry width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-97" value="Out-of-line Constraints" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-95">
+          <mxGeometry x="50" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="1040" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-3" value="PK" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-2">
+          <mxGeometry width="50" height="30" as="geometry">
+            <mxRectangle width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-4" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 11px;&quot;&gt;PRIMARY KEY (table_PK) is:&lt;br&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-2">
+          <mxGeometry x="50" width="560" height="30" as="geometry">
+            <mxRectangle width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;fontStyle=0" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="1070" width="610" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-33" value="" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-32">
+          <mxGeometry width="50" height="210" as="geometry">
+            <mxRectangle width="50" height="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-34" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;i style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&amp;nbsp;- must be the first column defined in the table&lt;br&gt;&amp;nbsp;- of INT type: TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- default is NOT NULL, thus should be omitted&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- typicially&amp;nbsp;&lt;/i&gt;AUTO_INCREMENT&#39;d column with values starting at 1, and +=1 to &lt;br&gt;&amp;nbsp; &amp;nbsp;2, 3, 4, ..., to type&#39;s maximum&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;- always a 1 cardinality&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;- PK must exist before sent to another(other) table(s) where it is an FK&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;- AUTO_INCREMENT&#39;d key, is called a SURROGATE KEY, best practice&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;- deprecated practices included using 2 column PKs, known as COMPOSITE KEY, limits&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;expandability of tables&lt;br&gt;&lt;/span&gt;&lt;br&gt;Syntax, defined after the last table column as an out of line CONSTRAINT:&lt;br&gt;&amp;nbsp; &lt;b&gt;, CONSTRAINT &lt;/b&gt;table&lt;b&gt;_PK&lt;/b&gt; &lt;b&gt;PRIMARY KEY (&lt;/b&gt;pk_column_id&lt;b&gt;)&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-32">
+          <mxGeometry x="50" width="560" height="210" as="geometry">
+            <mxRectangle width="560" height="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="1280" width="610" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-36" value="&lt;b&gt;UK#&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-35">
+          <mxGeometry width="50" height="250" as="geometry">
+            <mxRectangle width="50" height="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-37" value="&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;u&gt;UNIQUE keys (table_UK_cols)are:&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/u&gt;&lt;/span&gt;&amp;nbsp;- &lt;u&gt;1&lt;/u&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;u&gt; &lt;/u&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;u&gt;or more columns&lt;/u&gt;&amp;nbsp;of combined data that should not duplicate on other table rows&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;&amp;nbsp;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;- the reason why this record exists in the first place, to have 1 and only 1 entry&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;usually &lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;VARCHAR&lt;/font&gt;&lt;/b&gt;/&lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;CHAR &lt;/font&gt;&lt;/b&gt;field(s), though may include &lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;DATETIME &lt;/font&gt;&lt;/b&gt;or an&amp;nbsp;&lt;b&gt;FK &lt;/b&gt;?&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;INT&lt;/font&gt;&lt;/b&gt; fields&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;- column(s) form a &lt;b&gt;NONCLUSTERED/ordered&lt;/b&gt; index when &lt;b&gt;UNIQUE CONSTRAINT&lt;/b&gt; is defined&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;- &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;ASC&lt;/font&gt;&lt;/b&gt;/&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;DESC &lt;/font&gt;&lt;/b&gt;orders can be specified, based on how the app data is viewed:&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;- default alphabetic &lt;b&gt;ASC &lt;/b&gt;order of the dropdown &amp;lt;select&amp;gt;&amp;lt;option&amp;gt; box values&lt;/span&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;- default alphabetic &lt;b&gt;ASC &lt;/b&gt;order of the webpage view of where data is listed&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;- default date order &lt;b&gt;DESC &lt;/b&gt;to show most recent row first (ie: last row inserted)&lt;br&gt;&amp;nbsp; &amp;nbsp;- include order by &lt;b&gt;FK &lt;i&gt;?&lt;/i&gt;INT ASC|DESC&lt;/b&gt; to group main data column sections, then&lt;br&gt;&amp;nbsp; &amp;nbsp;- order&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;by&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;other rows&lt;br&gt;&lt;br&gt;Syntax, defined directly after PK CONSTRAINT:&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;b&gt;, CONSTRAINT table_UK_c1_c2D UNIQUE (uk_c1 ASC, uk_c2 DESC, ....)&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;...where D was added to constraint name to note uk_c2 as DESC, for example.&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-35">
+          <mxGeometry x="50" width="560" height="250" as="geometry">
+            <mxRectangle width="560" height="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="1530" width="610" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-39" value="&lt;b&gt;FK#&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-38">
+          <mxGeometry width="50" height="100" as="geometry">
+            <mxRectangle width="50" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-40" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;FOREIGN KEY&lt;/b&gt;&amp;nbsp;&lt;b&gt;(table_FK_tablePK)&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;i style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;- of an ?&lt;/i&gt;&lt;b style=&quot;&quot;&gt;INT&lt;/b&gt;&lt;i style=&quot;&quot;&gt;&lt;b&gt; type, matching its PK datatype and size&lt;/b&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;- PK&lt;/b&gt;&#39;s&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/i&gt;1 cardinality JOINs to its FK cardinality of 0&lt;sub style=&quot;&quot;&gt;to&lt;/sub&gt;1 or 0&lt;sub style=&quot;&quot;&gt;to&lt;/sub&gt;Many&lt;br&gt;&lt;/font&gt;&amp;nbsp;- when&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;1&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;to&lt;/sub&gt;Many&lt;/b&gt;&amp;nbsp;cardinality,&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;NOT NULL&amp;nbsp;&lt;/b&gt;attribute is required&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- when&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;0&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;to&lt;/sub&gt;1&lt;/b&gt;&amp;nbsp;or&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;0&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;to&lt;/sub&gt;Many&lt;/b&gt;,&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;NULL&amp;nbsp;&lt;/b&gt;is default, attribute applied for clarity&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-38">
+          <mxGeometry x="50" width="560" height="100" as="geometry">
+            <mxRectangle width="560" height="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-1">
+          <mxGeometry y="1630" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-69" value="&lt;b&gt;CK#&lt;/b&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-68">
+          <mxGeometry width="50" height="110" as="geometry">
+            <mxRectangle width="50" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3y2AO-QGRK5Xhr7dVDe-70" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;CHECK CONSTRAINT&lt;/b&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;b style=&quot;font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;(table_CK_colsCMP)&lt;/b&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;- verifying column values are within a particular business logic range&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;- could have multiple columns and defined similar to where clause using AND|OR&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot;&gt;Syntax:&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;&amp;nbsp; , CONSTRAINT table_CK_c1GEval_c2NN (c1 &amp;gt;= value AND|OR c2 IS NOT NULL)&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="U3y2AO-QGRK5Xhr7dVDe-68">
+          <mxGeometry x="50" width="560" height="110" as="geometry">
+            <mxRectangle width="560" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

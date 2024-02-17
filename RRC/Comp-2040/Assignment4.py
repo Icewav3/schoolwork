@@ -28,7 +28,8 @@ for i in ints:
                 sorted_ints.insert(sorted_ints.index(j),i)
                 break
     print(sorted_ints)
-print(f"The ordered list is: {sorted_ints}")
+print(f"The original list is: {ints}")
+print(f"The ordered list is: {sorted_ints[::-1]}")
 
 #2
 characters_dict = {}
