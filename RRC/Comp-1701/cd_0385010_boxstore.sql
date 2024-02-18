@@ -203,8 +203,10 @@ ALTER TABLE people
   , ADD COLUMN addr_code     CHAR(7) 
   , ADD COLUMN addr_info     VARCHAR(191) 
   , ADD COLUMN addr_delivery VARCHAR(191) 
-  , ADD COLUMN addr_type_id  TINYINT(4)   -- FK geo_address_type
-  , ADD COLUMN tc_id         INT(11)      -- FK geo_towncity
+  -- FK geo_address_type
+  , ADD COLUMN addr_type_id  TINYINT(4) NOT NULL 
+  -- FK geo_towncity
+  , ADD COLUMN tc_id         INT(11)
   , ADD COLUMN user_mod      INT(11) DEFAULT 2
   , ADD COLUMN date_mod      DATETIME DEFAULT CURRENT_TIMESTAMP
   , ADD COLUMN user_act      INT(11) DEFAULT 1
@@ -236,8 +238,21 @@ UPDATE people-
 WHERE p_id=2;
 
 -- -------------------------------------------------------------------
--- JOINS
+-- add address types
 
+-- Apartment
+UPDATE geo_addr_type-
+  SET addr_type = 'Apartment'
+WHERE addr_type_id=1;
+
+-- House
+UPDATE geo_addr_type-
+  SET addr_type = 'House'
+WHERE addr_type_id=2;
+
+-- -------------------------------------------------------------------
+-- JOINS
+JOIN geo_addr_type ON people.addr_type_id = geo_addr_type.id
 
 
 SELECT p_id, full_name, first_name, last_name
