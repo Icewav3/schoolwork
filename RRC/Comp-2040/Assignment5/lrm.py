@@ -1,5 +1,3 @@
-# In this assignment, you are to create two files: one file is a python module that should be named lrm.py; the other file is a python application named lrm_app.py which will import and use code from the module.
-
 # 1) The file lrm.py should contain the following:
 
 # A class named LinRegModel which is used for working with linear regression models. This class should have
@@ -20,12 +18,13 @@
  
 # where n is the length of each list.
 
-# 2) The file lrm_app.py is to demonstrate using the class you created above. It should do the following:
+class LinRegModel:
+    def __init__(self, slope = 0, bias = 0):
+        self.slope = slope
+        self.bias = bias
+    def __repr__(self):
+        return f"***************************************\nModel parameters:\nslope = {self.slope}\nbias = {self.bias}\n***************************************"
+    def predict(self, x):
+        return [self.bias + self.slope * i for i in x]
 
-# Import the lrm module you made above.
-# Create two LinRegModel objects, one using the default values for slope and bias, the other setting slope = -1 and bias = 4.
-# Use print to display the attributes of each linear regression model.
-# Use the predict method you created to obtain predictions from each model for the input xlist = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; store each list of predictions in a variable.
-# Use the rmse function to calculate the root-mean-squared-error of each function, using your predictions and ylist = [4, 3, 2, 1, 0, -1, -2, -3, -4, -5]. Print the result for each model.
-
-
+rmse = lambda y, yhat: (sum([(y[i] - yhat[i])**2 for i in range(len(y))])/len(y))**0.5

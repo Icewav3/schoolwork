@@ -1,30 +1,20 @@
-# 1) The file lrm.py should contain the following:
+# 2) The file lrm_app.py is to demonstrate using the class you created above. It should do the following:
 
-# A class named LinRegModel which is used for working with linear regression models. This class should have
-# an __init__ method which creates two attributes: slope and bias, each with a default value of 0. The user should be able to enter slope and bias when creating a new LinRegModel object.
-# a __repr__ method which neatly displays the value of slope and bias for a LinRegModel object as follows: 
+# Import the lrm module you made above.
+# Create two LinRegModel objects, one using the default values for slope and bias, the other setting slope = -1 and bias = 4.
+# Use print to display the attributes of each linear regression model.
+# Use the predict method you created to obtain predictions from each model for the input xlist = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; store each list of predictions in a variable.
+# Use the rmse function to calculate the root-mean-squared-error of each function, using your predictions and ylist = [4, 3, 2, 1, 0, -1, -2, -3, -4, -5]. Print the result for each model.
 
-# ***************************************
-# Model parameters:
-# slope = 1
-# bias = 1
-# ***************************************
+import lrm
 
-# a predict method which takes a list of floats (x) as input and returns a list of predictions (y) according to: 
-# y = bias + slope * x
-# Outside of the class, there should be a function named rmse which inputs two lists of floats (each with the same length), one with predictions (yhat) and the other with true values (y). The function should return the root-mean-squared-error, found by:
-
-# rmse = sqrt(1/n * sum((y - yhat)^2))
- 
-# where n is the length of each list.
-
-class LinRegModel:
-    def __init__(self, slope = 0, bias = 0):
-        self.slope = slope
-        self.bias = bias
-    def __repr__(self):
-        return f"***************************************\nModel parameters:\nslope = {self.slope}\nbias = {self.bias}\n***************************************"
-    def predict(self, x):
-        return [self.bias + self.slope * i for i in x]
-
-rmse = lambda y, yhat: (sum([(y[i] - yhat[i])**2 for i in range(len(y))])/len(y))**0.5
+model1 = lrm.LinRegModel()
+model2 = lrm.LinRegModel(-1, 4)
+print(model1)
+print(model2)
+xlist = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ylist = [4, 3, 2, 1, 0, -1, -2, -3, -4, -5]
+predictions1 = model1.predict(xlist)
+predictions2 = model2.predict(xlist)
+print(lrm.rmse(ylist, predictions1))
+print(lrm.rmse(ylist, predictions2))
