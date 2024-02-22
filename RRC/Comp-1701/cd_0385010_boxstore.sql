@@ -253,7 +253,9 @@ WHERE addr_type_id=2;
 -- -------------------------------------------------------------------
 -- JOINS
 JOIN geo_addr_type ON people.addr_type_id = geo_addr_type.id
-
+JOIN geo_towncity ON people.tc_id = geo_towncity.id
+JOIN geo_region ON geo_towncity.rg_id = geo_region.id
+JOIN geo_country ON geo_region.co_id = geo_country.id
 
 SELECT p_id, full_name, first_name, last_name
 FROM people
