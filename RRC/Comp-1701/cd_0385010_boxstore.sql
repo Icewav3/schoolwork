@@ -51,10 +51,6 @@ SELECT gat.addr_type_id, gat.addr_type, gat.active
 FROM geo_address_type gat
 WHERE gat.active=1;
 
--- JOIN
-                    
-
-
 -- -------------------------------------------------------------------
 -- geo country table
 DROP TABLE IF EXISTS geo_country;
@@ -77,8 +73,6 @@ SELECT gco.co_id, gco.co_name, gco.co_abbr
      , gco.active
 FROM   geo_country gco
 WHERE  gco.active=1;
--- JOIN
-
 -- -------------------------------------------------------------------
 -- geo region table
 DROP TABLE IF EXISTS geo_region;
@@ -105,9 +99,6 @@ SELECT grg.rg_id, grg.rg_name, grg.rg_abbr
      , grg.active
 FROM   geo_region grg
 WHERE  grg.active=1;
-
--- JOIN
-
 -- -------------------------------------------------------------------
 -- geo towncity table
 DROP TABLE IF EXISTS geo_towncity;
@@ -137,15 +128,14 @@ SELECT gtc.tc_id, gtc.tc_name, gtc.rg_id
 FROM   geo_towncity gtc
 WHERE  gtc.active=1;
 
--- JOIN
 -- -------------------------------------------------------------------
 -- create geo_addr_type table
-DROP TABLE IF EXISTS geo_addr_type;
-CREATE TABLE IF NOT EXISTS geo_addr_type (
-    addr_type_id TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    addr_type VARCHAR(15) NOT NULL,
-    active BIT NOT NULL DEFAULT 1
-);
+-- DROP TABLE IF EXISTS geo_addr_type;
+-- CREATE TABLE IF NOT EXISTS geo_addr_type (
+--     addr_type_id TINYINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     addr_type VARCHAR(15) NOT NULL,
+--     active BIT NOT NULL DEFAULT 1
+-- );
 
 -- -------------------------------------------------------------------
 -- create people table
@@ -161,7 +151,7 @@ CREATE TABLE IF NOT EXISTS people (
 
 TRUNCATE TABLE people;
 
-INSERT INTO people (fullname) VALUES
+INSERT INTO people (full_name) VALUES
     ('Cole Dorman'),
     ('Brad Vincelette');
     
@@ -181,13 +171,13 @@ LIMIT 100;
 ALTER TABLE people
   ADD COLUMN  IF NOT EXISTS first_name VARCHAR(35) NULL,
   ADD COLUMN IF NOT EXISTS last_name VARCHAR(35) NULL;
-UPDATE people
 
---Data split
+-- Data split
+UPDATE people
 SET first_name = MID(full_name, 1, INSTR(full_name, ' ') - 1),
   last_name = MID(full_name, INSTR(full_name, ' ') + 1, CHAR_LENGTH(full_name))
 WHERE 1=1;
------ modify tables
+-- modify tables
 
 ALTER TABLE people 
     DROP COLUMN   full_name
@@ -214,7 +204,7 @@ ALTER TABLE people
   , ADD COLUMN active BIT(1) DEFAULT 1
 ;
 -- Update my info
-UPDATE people-
+UPDATE people
   SET email_addr = 'coledorman12@gmail.com'
 , password = '12345!'
 , phone_pri = '204-998-8874'
@@ -227,12 +217,12 @@ WHERE p_id=1;
 
 -- Update brad info
 
-UPDATE people-
+UPDATE people
   SET email_addr = 'bvincelette@rrc.ca'
 , password = '12345!'
 , phone_pri = '204-845-1253'
 , addr = '123 main street'
-, addr_code 'n0m 2j6'
+, addr_code = 'n0m 2j6'
 , addr_type_id = "2"
 , date_mod = CURRENT_TIMESTAMP
 WHERE p_id=2;
@@ -241,23 +231,25 @@ WHERE p_id=2;
 -- add address types
 
 -- Apartment
-UPDATE geo_addr_type-
-  SET addr_type = 'Apartment'
-WHERE addr_type_id=1;
+-- UPDATE geo_addr_type
+--   SET addr_type = 'Apartment'
+-- WHERE addr_type_id=1;
 
 -- House
-UPDATE geo_addr_type-
-  SET addr_type = 'House'
-WHERE addr_type_id=2;
+-- UPDATE geo_addr_type-
+--   SET addr_type = 'House'
+-- WHERE addr_type_id=2;
 
 -- -------------------------------------------------------------------
 -- JOINS
+SELECT *
+FROM people
 JOIN geo_addr_type ON people.addr_type_id = geo_addr_type.id
 JOIN geo_towncity ON people.tc_id = geo_towncity.id
 JOIN geo_region ON geo_towncity.rg_id = geo_region.id
-JOIN geo_country ON geo_region.co_id = geo_country.id
+JOIN geo_country ON geo_region.co_id = geo_country.id;
 
-SELECT p_id, full_name, first_name, last_name
+SELECT p_id, first_name, last_name
 FROM people
-ORDER BY p_id
-LIMIT *;
+ORDER BY p_id DESC
+LIMIT 100;
