@@ -23,8 +23,9 @@ class LinRegModel:
         self.slope = slope
         self.bias = bias
     def __repr__(self):
-        return f"***************************************\nModel parameters:\nslope = {self.slope}\nbias = {self.bias}\n***************************************"
+        return f"***************************************\nModel     parameters:\nslope = {self.slope}\nbias = {self.bias}\n***************************************"
     def predict(self, x):
+        """input list output list of predictions"""
         return [self.bias + self.slope * i for i in x]
 
 rmse = lambda y, yhat: (sum([(y[i] - yhat[i])**2 for i in range(len(y))])/len(y))**0.5

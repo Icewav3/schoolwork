@@ -227,6 +227,11 @@ JOIN geo_towncity ON people.tc_id = geo_towncity.tc_id
 JOIN geo_region ON geo_towncity.rg_id = geo_region.rg_id
 JOIN geo_country ON geo_region.co_id = geo_country.co_id;
 
+SELECT *
+FROM people
+ORDER BY p_id
+LIMIT 2;
+
 SELECT p_id, first_name, last_name
 FROM people
 ORDER BY p_id DESC
