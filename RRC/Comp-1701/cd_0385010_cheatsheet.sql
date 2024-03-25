@@ -423,3 +423,6 @@ CREATE TABLE IF NOT EXISTS tablename (
 
 );
 
+----------------------------------------
+-- syntax
+SELECT SUBSTR(string, start, length);
