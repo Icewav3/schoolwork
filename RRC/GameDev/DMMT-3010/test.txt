@@ -1,0 +1,10 @@
+1. Game view is the camera view, scene view is engine view.
+2. a parent
+3. folder
+4. source texture, sprite, sprite renderer
+5. .png
+6. physics sim, collosion detection
+7. transform; x, y, z
+8. set as static, or lock axis 
+9. notifying other objects of conditions
+10. 2D at the end vs no suffix
