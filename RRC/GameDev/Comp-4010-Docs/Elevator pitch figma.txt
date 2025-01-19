@@ -1,0 +1,11 @@
+Elevator pitch figma:
+An game focused on a average day with a underlying insanity that has you struggle to identify who is trying to help you and who is trying to hurt you.
+World:
+Average person in the middle class living alone.
+Mechanics:
+Focus interactions between NPCs and the player and the player and environment where the player takes in a large amount of visual, and auditory information which not all of it is accurate, such as hallucinations.
+Narrative:
+In games you can more effectively convey what someone may see/experience in terms of immersion which can add to the understanding of how challenging it can be to understand someone 
+
+
+Clockwork
