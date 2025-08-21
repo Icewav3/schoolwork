@@ -1,0 +1,14 @@
+C:\Users\coled\source\repos\firstproject\firstproject\bin\Debug\netcoreapp3.1\firstproject.exe
+C:\Users\coled\source\repos\firstproject\firstproject\bin\Debug\netcoreapp3.1\firstproject.deps.json
+C:\Users\coled\source\repos\firstproject\firstproject\bin\Debug\netcoreapp3.1\firstproject.runtimeconfig.json
+C:\Users\coled\source\repos\firstproject\firstproject\bin\Debug\netcoreapp3.1\firstproject.runtimeconfig.dev.json
+C:\Users\coled\source\repos\firstproject\firstproject\bin\Debug\netcoreapp3.1\firstproject.dll
+C:\Users\coled\source\repos\firstproject\firstproject\bin\Debug\netcoreapp3.1\firstproject.pdb
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.AssemblyInfoInputs.cache
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.AssemblyInfo.cs
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.dll
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.pdb
+C:\Users\coled\source\repos\firstproject\firstproject\obj\Debug\netcoreapp3.1\firstproject.genruntimeconfig.cache
