@@ -1,0 +1,11 @@
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\bin\Debug\Assignment2ColeDorman.exe.config
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\bin\Debug\Assignment2ColeDorman.exe
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\bin\Debug\Assignment2ColeDorman.pdb
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\bin\Debug\RRCAGLibraryColeDorman2.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\bin\Debug\RRCAGLibraryColeDorman2.pdb
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\obj\Debug\Assignment2ColeDorman.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\obj\Debug\Assignment2ColeDorman.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\obj\Debug\Assignment2ColeDorman.csproj.CopyComplete
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\obj\Debug\Assignment2ColeDorman.exe
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\obj\Debug\Assignment2ColeDorman.pdb
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\Assignment2ColeDorman\obj\Debug\Assignment2ColeDorman.csproj.SuggestedBindingRedirects.cache

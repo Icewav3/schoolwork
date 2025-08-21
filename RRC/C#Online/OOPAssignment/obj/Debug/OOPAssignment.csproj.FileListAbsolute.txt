@@ -1,0 +1,10 @@
+C:\Users\coled\source\repos\OOPAssignment\obj\Debug\OOPAssignment.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\OOPAssignment\obj\Debug\OOPAssignment.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\OOPAssignment\bin\Debug\OOPAssignment.exe.config
+C:\Users\coled\source\repos\OOPAssignment\bin\Debug\OOPAssignment.exe
+C:\Users\coled\source\repos\OOPAssignment\bin\Debug\OOPAssignment.pdb
+C:\Users\coled\source\repos\OOPAssignment\bin\Debug\CalculatorLibrary.dll
+C:\Users\coled\source\repos\OOPAssignment\bin\Debug\CalculatorLibrary.pdb
+C:\Users\coled\source\repos\OOPAssignment\obj\Debug\OOPAssignment.csproj.CopyComplete
+C:\Users\coled\source\repos\OOPAssignment\obj\Debug\OOPAssignment.exe
+C:\Users\coled\source\repos\OOPAssignment\obj\Debug\OOPAssignment.pdb

@@ -1,0 +1,16 @@
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\UnitTestRRCAG.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\UnitTestRRCAG.pdb
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\RRCAGLibraryColeDorman2.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\RRCAGLibraryColeDorman2.pdb
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\obj\Debug\UnitTestRRCAG.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\obj\Debug\UnitTestRRCAG.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\obj\Debug\UnitTestRRCAG.csproj.CopyComplete
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\obj\Debug\UnitTestRRCAG.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\UnitTestRRCAG\obj\Debug\UnitTestRRCAG.pdb

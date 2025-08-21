@@ -1,0 +1,6 @@
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\RRCAGLibraryColeDorman2\bin\Debug\RRCAGLibraryColeDorman2.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\RRCAGLibraryColeDorman2\bin\Debug\RRCAGLibraryColeDorman2.pdb
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\RRCAGLibraryColeDorman2\obj\Debug\RRCAGLibraryColeDorman2.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\RRCAGLibraryColeDorman2\obj\Debug\RRCAGLibraryColeDorman2.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\RRCAGLibraryColeDorman2\obj\Debug\RRCAGLibraryColeDorman2.dll
+C:\Users\coled\source\repos\RRCAGLibraryColeDorman\RRCAGLibraryColeDorman2\obj\Debug\RRCAGLibraryColeDorman2.pdb

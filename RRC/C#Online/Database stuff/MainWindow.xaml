@@ -1,0 +1,33 @@
+﻿<Window x:Class="Database_stuff.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database_stuff"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:Database1DataSet x:Key="database1DataSet"/>
+        <CollectionViewSource x:Key="studentsViewSource" Source="{Binding Students, Source={StaticResource database1DataSet}}"/>
+        <CollectionViewSource x:Key="calculationsViewSource" Source="{Binding Calculations, Source={StaticResource database1DataSet}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource studentsViewSource}">
+        <DataGrid x:Name="studentsDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="509,0,0,219" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="student_IDColumn" Binding="{Binding Student_ID}" Header="Student ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="student_NameColumn" Binding="{Binding Student_Name}" Header="Student Name" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="calculationsDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource calculationsViewSource}}" Margin="0,0,283,219" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="calculation_IDColumn" Binding="{Binding Calculation_ID}" Header="Calculation ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="student_IDColumn1" Binding="{Binding Student_ID}" Header="Student ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="inputNumber1Column" Binding="{Binding InputNumber1}" Header="Input Number 1" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="inputNumber2Column" Binding="{Binding InputNumber2}" Header="Input Number 2" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="operationColumn" Binding="{Binding Operation}" Header="Operation" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="expectedResultColumn" Binding="{Binding ExpectedResult}" Header="Expected Result" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
