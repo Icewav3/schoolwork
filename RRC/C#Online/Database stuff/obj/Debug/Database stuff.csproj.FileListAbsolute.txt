@@ -1,0 +1,18 @@
+C:\Users\coled\source\repos\Database stuff\bin\Debug\Database1.mdb
+C:\Users\coled\source\repos\Database stuff\bin\Debug\Database stuff.exe.config
+C:\Users\coled\source\repos\Database stuff\bin\Debug\Database stuff.exe
+C:\Users\coled\source\repos\Database stuff\bin\Debug\Database stuff.pdb
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\Database stuff\obj\Debug\MainWindow.g.cs
+C:\Users\coled\source\repos\Database stuff\obj\Debug\App.g.cs
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff_Content.g.cs
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff_MarkupCompile.cache
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff_MarkupCompile.lref
+C:\Users\coled\source\repos\Database stuff\obj\Debug\MainWindow.baml
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff.g.resources
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database_stuff.Properties.Resources.resources
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff.csproj.GenerateResource.cache
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff.exe
+C:\Users\coled\source\repos\Database stuff\obj\Debug\Database stuff.pdb
+C:\Users\coled\source\repos\Database stuff\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -1,0 +1,6 @@
+C:\Users\coled\source\repos\OOPAssignment\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\OOPAssignment\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\OOPAssignment\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll
+C:\Users\coled\source\repos\OOPAssignment\CalculatorLibrary\bin\Debug\CalculatorLibrary.pdb
+C:\Users\coled\source\repos\OOPAssignment\CalculatorLibrary\obj\Debug\CalculatorLibrary.dll
+C:\Users\coled\source\repos\OOPAssignment\CalculatorLibrary\obj\Debug\CalculatorLibrary.pdb

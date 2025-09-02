@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Data</name>
+    </assembly>
+    <members>
+        <member name="T:RRCAG.Data.DataRetriever">
+            <summary>
+            Provides methods for retrieving vehicle data.
+            </summary>
+        </member>
+        <member name="M:RRCAG.Data.DataRetriever.GetVehicles">
+            <summary>
+            Returns a List of Vehicles.
+            </summary>
+            <returns>A List of Vehicles.</returns>
+        </member>
+        <member name="T:RRCAG.Data.Vehicle">
+            <summary>
+            Represents a Vehicle.
+            </summary>
+        </member>
+        <member name="M:RRCAG.Data.Vehicle.#ctor(System.String,System.Int32,System.String,System.String,System.Int32,System.Boolean,System.String,System.Decimal)">
+            <summary>
+            Initializes a new instance of the Vehicle class.
+            </summary>
+            <param name="stockID">The stock ID of the Vehicle.</param>
+            <param name="manufacturedYear">The year the Vehicle was manufactured.</param>
+            <param name="manufacturer">The company that manufactured the Vehicle.</param>
+            <param name="model">The model of the Vehicle.</param>
+            <param name="mileage">The mileage of the Vehicle in kilometers.</param>
+            <param name="isAutomatic">Whether the Vehicle has an automatic transmission.</param>
+            <param name="colour">The colour of the Vehicle.</param>
+            <param name="basePrice">The base price of the Vehicle.</param>
+            <exception cref="T:System.ArgumentException">When the stock ID is blank.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the year is less than 1885.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the year is greater than 9999.</exception>
+            <exception cref="T:System.ArgumentException">When the manufacturer is blank.</exception>
+            <exception cref="T:System.ArgumentException">When the model is blank.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the mileage is less than zero.</exception>
+            <exception cref="T:System.ArgumentException">When the colour is blank.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the base price is less than zero.</exception>
+        </member>
+        <member name="M:RRCAG.Data.Vehicle.ToString">
+            <summary>
+            Returns a String representation of the Vehicle.
+            </summary>
+            <returns>A String representation of the Vehicle.</returns>
+            <remarks>Example: 11111 - 2014 Chevrolet Camaro</remarks>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.StockID">
+            <summary>
+            Gets and sets the Vehicle's Stock ID.
+            </summary>
+            <exception cref="T:System.ArgumentException">When the value is blank.</exception>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.ManufacturedYear">
+            <summary>
+            Gets and sets the year the Vehicle was manufactured.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the value is less than 1885.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the value is greater than 9999.</exception>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.Manufacturer">
+            <summary>
+            Gets and sets the company that manufactured the Vehicle.
+            </summary>
+            <exception cref="T:System.ArgumentException">When the value is blank.</exception>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.Model">
+            <summary>
+            Gets and sets the model of the Vehicle.
+            </summary>
+            <exception cref="T:System.ArgumentException">When the value is blank.</exception>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.Mileage">
+            <summary>
+            Gets and sets the Vehicle's mileage in kilometers.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the value is less than zero.</exception>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.IsAutomatic">
+            <summary>
+            Gets and sets whether the Vehicle has an automatic transmission.
+            </summary>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.Colour">
+            <summary>
+            Gets and sets the colour of the Vehicle.
+            </summary>
+            <exception cref="T:System.ArgumentException">When the value is blank.</exception>
+        </member>
+        <member name="P:RRCAG.Data.Vehicle.BasePrice">
+            <summary>
+            Gets and sets the base price of the vehicle.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the value is less than zero.</exception>
+        </member>
+    </members>
+</doc>

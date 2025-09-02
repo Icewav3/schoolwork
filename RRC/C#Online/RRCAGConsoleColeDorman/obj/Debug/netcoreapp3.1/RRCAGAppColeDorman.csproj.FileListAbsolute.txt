@@ -1,0 +1,14 @@
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.AssemblyInfoInputs.cache
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.AssemblyInfo.cs
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\bin\Debug\netcoreapp3.1\RRCAGAppColeDorman.exe
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\bin\Debug\netcoreapp3.1\RRCAGAppColeDorman.deps.json
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\bin\Debug\netcoreapp3.1\RRCAGAppColeDorman.runtimeconfig.json
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\bin\Debug\netcoreapp3.1\RRCAGAppColeDorman.runtimeconfig.dev.json
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\bin\Debug\netcoreapp3.1\RRCAGAppColeDorman.dll
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\bin\Debug\netcoreapp3.1\RRCAGAppColeDorman.pdb
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.dll
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.pdb
+C:\Users\coled\source\repos\RRCAGConsoleColeDorman\obj\Debug\netcoreapp3.1\RRCAGAppColeDorman.genruntimeconfig.cache

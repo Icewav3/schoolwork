@@ -1,0 +1,23 @@
+C:\Users\coled\source\repos\assignment 1\bin\Debug\assignment 1.exe.config
+C:\Users\coled\source\repos\assignment 1\bin\Debug\assignment 1.exe
+C:\Users\coled\source\repos\assignment 1\bin\Debug\assignment 1.pdb
+C:\Users\coled\source\repos\assignment 1\obj\Debug\RRCAGColeDorman.csproj.AssemblyReference.cache
+C:\Users\coled\source\repos\assignment 1\obj\Debug\RRCAGColeDorman.csproj.SuggestedBindingRedirects.cache
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.Properties.Resources.resources
+C:\Users\coled\source\repos\assignment 1\obj\Debug\RRCAGColeDorman.csproj.GenerateResource.cache
+C:\Users\coled\source\repos\assignment 1\obj\Debug\RRCAGColeDorman.csproj.CoreCompileInputs.cache
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment 1.exe
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment 1.pdb
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.MainWindow.resources
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.About.resources
+C:\Users\coled\source\repos\assignment 1\bin\Debug\RRCAGLibraryColeDorman2.dll
+C:\Users\coled\source\repos\assignment 1\bin\Debug\RRCAGLibraryColeDorman2.pdb
+C:\Users\coled\source\repos\assignment 1\obj\Debug\RRCAGColeDorman.csproj.CopyComplete
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.frmSalesQuote.resources
+C:\Users\coled\source\repos\assignment 1\bin\Debug\Data.dll
+C:\Users\coled\source\repos\assignment 1\bin\Debug\Data.xml
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.frmAbout.resources
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.frmCarWash.resources
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.Properties.InvoiceForm.resources
+C:\Users\coled\source\repos\assignment 1\bin\Debug\Fragrances.txt
+C:\Users\coled\source\repos\assignment 1\obj\Debug\assignment_1.frmCarWashInvoice.resources
