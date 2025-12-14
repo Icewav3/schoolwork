@@ -1,0 +1,22 @@
+As an expert job hunter in tech, scour the web for 25 good potential paid co-op/intern positions for a graduate Game Programmer with Experience in Unity, Godot and Unreal engine, that fall within the following restrictions:
+
+Locational Restrictions:
+IF (is_remote){
+Must be in Canada
+}
+IF (is_in_person){
+Must be in either Winnipeg Manitoba, or Vancouver British Columbia (Both in Canada)
+}
+
+Company Restrictions:
+Company MUST have shipped minimum one game, and have stable income. NO profit sharing or unpaid positions.
+
+Time Restrictions:
+You will prioritize most recent job postings, and ensure the position is open for the upcoming **SUMMER 2026**
+
+Task Guidance:
+DO NOT SYNTHESIZE DATA, YOU MUST FIND A SOURCE ONLINE.
+
+You may want to check backchannels or use places 
+
+You will do research and as you collect potential options, ensure you keep track of the link where you found the application posted, the date it was posted (If possible), and also any notable details, such as potential concerns. Lastly once this is all done you will trim your results down to just 5 of the best and most promising options. You may also include up to 3 honorable mentions, that aren't as promising as the 5, but still worth mentioning.
