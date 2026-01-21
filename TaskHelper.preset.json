@@ -1,0 +1,38 @@
+{
+  "identifier": "@local:task-helper",
+  "name": "TaskHelper",
+  "changed": true,
+  "operation": {
+    "fields": [
+      {
+        "key": "llm.prediction.temperature",
+        "value": 0.7
+      },
+      {
+        "key": "llm.prediction.topPSampling",
+        "value": {
+          "checked": true,
+          "value": 0.85
+        }
+      },
+      {
+        "key": "llm.prediction.topKSampling",
+        "value": 50
+      },
+      {
+        "key": "llm.prediction.repeatPenalty",
+        "value": {
+          "checked": true,
+          "value": 1.08
+        }
+      },
+      {
+        "key": "llm.prediction.systemPrompt",
+        "value": "# Notion MCP Correct Tool Test\n\nExecute these commands ONE AT A TIME. After each command completes, STOP and wait for the next command.\n\n---\n\n## COMMAND 1: List All Tasks\n\n**Tool:** `API-post-database-query`\n\n**Parameters:**\n```json\n{\n  \"database_id\": \"2e808d22-0cf7-8000-8ed2-e6b9a0d4d159\"\n}\n```\n\n**Output format:** \nFor each task, show ONLY:\n- Task name\n- Page ID\n\nDo NOT query again. Show results and STOP.\n\n---\n\n## COMMAND 2: Update a Specific Task Status\n\n**Tool:** `API-patch-page`\n\n**Parameters:**\n```json\n{\n  \"page_id\": \"[USE THE FIRST PAGE ID FROM COMMAND 1]\",\n  \"properties\": {\n    \"Status\": {\n      \"status\": {\n        \"name\": \"Done\"\n      }\n    }\n  }\n}\n```\n\n**Output:** Say only \"Status updated to Done\" and STOP.\n\n---\n\n## COMMAND 3: Add a Comment to a Task\n\n**Tool:** `API-create-a-comment`\n\n**Parameters:**\n```json\n{\n  \"parent\": {\n    \"page_id\": \"[USE THE SAME PAGE ID FROM COMMAND 2]\"\n  },\n  \"rich_text\": [\n    {\n      \"text\": {\n        \"content\": \"This task management system is working great!\"\n      }\n    }\n  ]\n}\n```\n\n**Output:** Say only \"Comment added\" and STOP.\n\n---\n\n## COMMAND 4: Create a New Task\n\n**Tool:** `API-post-page`\n\n**Parameters:**\n```json\n{\n  \"parent\": {\n    \"database_id\": \"2e808d22-0cf7-8000-8ed2-e6b9a0d4d159\"\n  },\n  \"properties\": {\n    \"Name\": {\n      \"title\": [\n        {\n          \"text\": {\n            \"content\": \"AI Test - Task Created Successfully\"\n          }\n        }\n      ]\n    },\n    \"Status\": {\n      \"status\": {\n        \"name\": \"Done\"\n      }\n    },\n    \"Due Date\": {\n      \"date\": {\n        \"start\": \"2026-01-15\"\n      }\n    }\n  }\n}\n```\n\n**Output:** Show the new page ID and STOP.\n\n---\n\n## COMMAND 5: Query Tasks Due Today\n\n**Tool:** `API-post-database-query`\n\n**Parameters:**\n```json\n{\n  \"database_id\": \"2e808d22-0cf7-8000-8ed2-e6b9a0d4d159\",\n  \"filter\": {\n    \"property\": \"Due Date\",\n    \"date\": {\n      \"equals\": \"2026-01-15\"\n    }\n  }\n}\n```\n\n**Output:** Show task names that are due today and STOP.\n\n---\n\n## CRITICAL RULES:\n1. Use ONLY the tool names shown above (these are the real ones)\n2. Execute ONE command at a time\n3. After getting a response, STOP completely\n4. Do NOT analyze, interpret, or query multiple times\n5. Copy the JSON parameters EXACTLY as shown"
+      }
+    ]
+  },
+  "load": {
+    "fields": []
+  }
+}
